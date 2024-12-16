@@ -1,0 +1,56 @@
+
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+
+/* Styling the navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #000; /* Pure black background */
+}
+
+/* Logo and company name container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid red; /* Red underline for both logo and company name */
+  padding-bottom: 5px;
+}
+
+/* Logo styling */
+.logo {
+  height: 50px; /* Adjust as needed */
+  margin-right: 10px;
+  
+}
+
+/* Company name and tagline container */
+.company-info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Company name styling */
+.company-name {
+font-size: 1.9rem;
+font-family: 'Times New Roman', Times, serif; /* Times New Roman for company name */
+color: #ff0000; /* Red color for the text */
+font-weight: bold;
+}
+
+/* Tagline styling */
+.tagline {
+font-size: 0.875rem;
+font-family: 'Calibri', sans-serif; /* Calibri for the tagline */
+color: #fff; /* White color for the text */
+font-weight: normal;
+}

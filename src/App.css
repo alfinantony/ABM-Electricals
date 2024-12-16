@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  font-family: Arial, sans-serif;
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,nav{
+    font-family: "Poppins", sans-serif;
+}
+
+header,nav {
+    z-index: 100001;
+}
+
+.active{
+    color: red !important;
+}
+
+
+
+
+
+/* banner */
+
+
+/* Banner container */
+.banner-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)
+  ),
+  url('/src/assets/banner1.jpg');
+  background-size: cover;
+}
+
+/* Slides */
+.banner-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.banner-slide:first-child {
+  opacity: 1;
+}
+
+/* Banner content */
+.banner-content {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+/* Title styling */
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #f8f9fa;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Highlight styling */
+.highlight {
+  color: #c72c41; /* Subtle red for emphasis */
+  font-style: italic;
+  text-shadow: 2px 2px 8px rgba(199, 44, 65, 0.8);
+  padding: 0 10px;
+}
+
+/* Caption styling */
+.banner-caption {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #d4d4d4;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Arrow down button */
+.cs-down_btn {
+  border: 2px solid #fff;
+  border-radius: 50px; /* This keeps it an oval */
+  height: 80px; /* Increased height for a vertical oval */
+  width: 45px; /* Reduced width for vertical shape */
+  cursor: pointer;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 15;
+  transition: transform 0.3s;
+  margin-left: auto;
+  margin-right: auto; /* Centering the button horizontally */
+}
+
+.cs-down_btn::before {
+  border-radius: 50%;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  animation: up-down 2s infinite ease-in-out;
+}
+
+@keyframes up-down {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+/* CSS Shapes */
+.cs-shape {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-bottom: 8px solid transparent;
+  border-left: 14px solid #c72c41;
+  border-top: 8px solid transparent;
+  animation: semi-rotate 8s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  z-index: 5; 
+}
+
+.cs-shape-1 {
+  left: 10%;
+  top: 20%;
+}
+
+.cs-shape-2 {
+  left: 70%;
+  top: 15%;
+  transform: rotate(-15deg);
+}
+
+.cs-shape-3 {
+  left: 35%;
+  top: 35%;
+  transform: rotate(-30deg);
+}
+
+@keyframes semi-rotate {
+  50% {
+    transform: translateY(25px) rotate(-53deg);
+  }
+}
+
+
+
+
+
+/* gallery */
+
+#gallery {
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+}
+
+.galleryHeader {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.galleryTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.galleryDesc {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.galleryItem {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.galleryImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.galleryItem:hover .galleryImg {
+    transform: scale(1.1);
+}
+
+.galleryBtn {
+    display: block;
+    margin: 40px auto 0;
+    padding: 12px 24px;
+    background-color: #ff0000;
+    color: #fff;
+    border: 1px solid #ff0000;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.galleryBtn:hover {
+    background-color: #e60000;
+    border-color: #e60000;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popupContent {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupImg {
+    max-width: 100%;
+    max-height: 60vh;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.popupDesc {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #ddd;
+    text-align: center;
+    max-width: 80%;
+}
+
+.popupClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 2em;
+    color: #fff;
+}
+
+
+
