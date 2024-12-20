@@ -82,7 +82,18 @@ const Footer = () => {
         </div>
       </div>
       <div style={footerStyles.footerBottom}>
-        <p style={footerStyles.copyRight}>&copy; {new Date().getFullYear()} ABM Electricals.</p>
+      <p style={footerStyles.copyRight}>&copy; {new Date().getFullYear()} ABM Electricals.</p>
+        <p style={footerStyles.copyRight}>
+          <a
+            href="mailto:alfinantony77@gmail.com"
+            style={{
+              color: '#fff',
+              fontSize: 12
+            }}
+          >
+            Created By Alfin Antony
+          </a>
+        </p>
       </div>
     </footer>
   );
