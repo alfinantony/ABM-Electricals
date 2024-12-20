@@ -29,7 +29,7 @@ import TEC from '../assets/TEC.jpg';
 import TECHNOPARK from '../assets/TECHNOPARK.png';
 import Traco from '../assets/Traco.jpg';
 import WAPCOS from '../assets/WAPCOS.png';
-// import ISRO from '../assets/ISRO.png'; 
+import ISRO from '../assets/Isro.png'; 
 
 const clients = [
   { id: 1, src: AUDI, alt: 'AUDI' },
@@ -50,7 +50,7 @@ const clients = [
   { id: 16, src: IBS, alt: 'IBS' },
   { id: 17, src: INKEL, alt: 'INKEL' },
   { id: 18, src: KEL, alt: 'KEL' },
-  // { id: 19, src: ISRO, alt: 'ISRO' },
+  { id: 19, src: ISRO, alt: 'ISRO' },
   { id: 20, src: Lakeshore, alt: 'Lakeshore' },
   { id: 21, src: LG, alt: 'LG' },
   { id: 22, src: MC, alt: 'MC' },
