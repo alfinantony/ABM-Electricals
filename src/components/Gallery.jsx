@@ -10,7 +10,7 @@ import gallery7 from '../assets/gallery7.jpg';
 import gallery8 from '../assets/gallery8.jpeg';
 import gallery9 from '../assets/gallery9.jpg';
 import gallery10 from '../assets/gallery10.jpg';
-import gallery11 from '../assets/gallery11.JPG';
+// import gallery11 from '../assets/gallery11.JPG';
 import gallery13 from '../assets/gallery13.JPG';
 import gallery14 from '../assets/gallery14.png';
 import gallery15 from '../assets/gallery15.png';
@@ -83,11 +83,11 @@ const images = [
       desc: 'Holiday Group: Installation of Transformers 500KVA, 400KVA, 200KVA, 160 kVA DG Set, and complete internal electrification.' 
     },
 
-    { 
-      src: gallery11, 
-      alt: 'Gallery Image 11', 
-      desc: `Technopark Phase I campus, Trivandrum: Electrical installation work for a 150 TR chiller plant at Park Centre building.` 
-    },
+    // { 
+    //   src: gallery11, 
+    //   alt: 'Gallery Image 11', 
+    //   desc: `Technopark Phase I campus, Trivandrum: Electrical installation work for a 150 TR chiller plant at Park Centre building.` 
+    // },
     // { 
     //   src: gallery12, 
     //   alt: 'Gallery Image 12', 
