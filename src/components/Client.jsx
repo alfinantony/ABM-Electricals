@@ -103,7 +103,7 @@ const Client = () => {
   const carouselStyle = {
     display: 'flex',
     width: '200%',
-    animation: 'moveLogos 60s linear infinite',
+    animation: 'moveLogos 20s linear infinite',
   };
 
   const logoStyle = {
