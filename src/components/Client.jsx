@@ -18,7 +18,6 @@ import IBS from '../assets/IBS.png';
 import INKEL from '../assets/INKEL.png';
 import KEL from '../assets/KEL.jpg';
 import Lakeshore from '../assets/Lakeshore.png';
-import ISRO from '../assets/ISRO.png';
 import LG from '../assets/LG.png';
 import MC from '../assets/MC.png';
 import MFCLOGO from '../assets/MFCLOGO.jpg';
@@ -30,6 +29,7 @@ import TEC from '../assets/TEC.jpg';
 import TECHNOPARK from '../assets/TECHNOPARK.png';
 import Traco from '../assets/Traco.jpg';
 import WAPCOS from '../assets/WAPCOS.png';
+import ISRO from '../assets/ISRO.png'; 
 
 const clients = [
   { id: 1, src: AUDI, alt: 'AUDI' },
