@@ -9,7 +9,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_z0uiifk', 'template_5vghfm2', form.current, '2yrFSpXNrteMuRH9_')
+    emailjs.sendForm('service_thciquc', 'template_w41dmrl', form.current, 'vYxJDQh2KrrG4xQL8')
       .then(
         (result) => {
           alert('Submitted!');
@@ -28,7 +28,7 @@ const Contact = () => {
         <h1 style={styles.contactPageTitle}>Contact Us</h1>
         <p style={styles.contactParagraph}>We would love to hear from you! Please use the form below to get in touch or visit our location.</p>
 
-        <div style={styles.contactContent}>
+        <div style={styles.contactContent} className="contact-form-wrapper">
           <div style={styles.contactInfo}>
             <div style={styles.location}>
               {/* Map location */}
@@ -154,8 +154,9 @@ const styles = {
     width: '40px',
     height: '40px',
     borderRadius: '50%',
-    transition: 'transform 0.3s',
+    transition: 'transform 0.3s, filter 0.3s',
   },
+  
   contactFormWrapper: {
     flex: 1,
   },

@@ -35,14 +35,13 @@ const About = () => {
     </div>
   </div>
 
-  {/* Founder's Information */}
+  {/* Founder's Information
   <div className="text-left">
     <p className="text-base text-gray-300 leading-relaxed text-justify">
-    Sri Antony Joseph Kooliyath (1933–2019), the esteemed founder of ABM Electricals, steered the company to substantial success in the 1980s through his hands-on approach, exceptional efficiency, and unwavering leadership. Mr Joseph Basil (Proprietor, ABM Electricals).
-
+    ABM Electricals is a premier A-Grade electrical contracting firm from Kerala with a distinguished 40-year track record of operations in India and abroad. Founded in 1984 in Kerala by the late Mr Antony Joseph in collaboration with his sons Joseph Basil and Antony Bennen, we specialize in electrical works ranging from light wiring to transformer substation works, demonstrating unwavering commitment and expertise over the past four decades.
 
     </p>
-  </div>
+  </div> */}
 </div>
 
 
@@ -53,10 +52,16 @@ const About = () => {
           {/* Company Details */}
           <div className='mb-8'>
             {/* <h3 className='text-4xl font-semibold mb-4'>Company Name</h3> */}
+            <p className="text-base text-gray-300 leading-relaxed text-justify">
+    ABM Electricals is a premier A-Grade electrical contracting firm from Kerala with a distinguished 40-year track record of operations in India and abroad. Founded in 1984 in Kerala by the late Mr Antony Joseph in collaboration with his sons Joseph Basil and Antony Bennen, we specialize in electrical works ranging from light wiring to transformer substation works, demonstrating unwavering commitment and expertise over the past four decades.
+
+    </p>
+        <br></br>
             <p className='text-gray-300 leading-relaxed text-justify'>
-            FOREVER an Inspiration, his emphasis on delivering high-quality work while reducing costs for his clients brought in important industrial and commercial projects from across India and abroad, notably working for M/s. Harrisons & Cross Field(India) Ltd., one of the leading multi-disciplinary companies in India till the 90s. <br /> <br />
-            ABM Electricals is a premier A-Grade electrical contracting firm with a distinguished 40-year track record of operations in India and internationally. Founded in 1984 in Kerala by the late Mr. Antony Joseph, in collaboration with his sons Joseph Basil and Antony Bennen, our firm stands as one of the foremost electrical contractors in Kerala, demonstrating unwavering commitment and expertise over the past four decades.      <br />      <br/>
-            We have had the privilege of establishing associations with highly esteemed organizations including The Holiday Group, Audi Kochi, GCDA, Cochin Port Trust Ltd, Cochin Shipyard Ltd, Rajagiri Institutions, and Techno Park.  We are dedicated to upholding the values of our founder by ensuring the highest level of excellence in design, execution, and the timely completion of your projects.
+            Sri Antony Joseph Kooliyath (1933–2019), the esteemed founder of ABM Electricals, steered the company to substantial success in the 1980s with his exceptional efficiency, and unwavering leadership, notably working for M/s. Harrisons & Cross Field (India) Ltd., now M/s. Harrisons Malayalam Ltd., one of the leading multi-disciplinary companies in India.
+<br /> <br />
+We have had the privilege of establishing associations with highly esteemed organizations including ISRO, Cochin Port Trust, Cochin Shipyard Ltd, General Hospital Ernakulam (INKEL), NIA Kochi (Wapcos Ltd), IIT Palakkad, IBS Group, Technopark,  The Holiday Group, Audi Kochi, Rajagiri Institutions, Round Island Resort Projects-Seychelles and several others. We are dedicated to upholding the values of our founder by ensuring the highest level of integrity cost effective design, execution, and the timely completion of your projects.<br />      <br/>
+            {/* We have had the privilege of establishing associations with highly esteemed organizations including The Holiday Group, Audi Kochi, GCDA, Cochin Port Trust Ltd, Cochin Shipyard Ltd, Rajagiri Institutions, and Techno Park.  We are dedicated to upholding the values of our founder by ensuring the highest level of excellence in design, execution, and the timely completion of your projects. */}
 
 
             </p>

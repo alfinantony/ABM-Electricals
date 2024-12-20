@@ -17,7 +17,7 @@ import HOLIDAY from '../assets/HOLIDAY.jpg';
 import IBS from '../assets/IBS.png';
 import INKEL from '../assets/INKEL.png';
 import KEL from '../assets/KEL.jpg';
-// import KITCO from '../assets/KITCO.png';
+import ISRO from '../assets/ISRO.png';
 import Lakeshore from '../assets/Lakeshore.png';
 import LG from '../assets/LG.png';
 import MC from '../assets/MC.png';
@@ -50,7 +50,7 @@ const clients = [
   { id: 16, src: IBS, alt: 'IBS' },
   { id: 17, src: INKEL, alt: 'INKEL' },
   { id: 18, src: KEL, alt: 'KEL' },
-  // { id: 19, src: KITCO, alt: 'KITCO' },
+  { id: 19, src: ISRO, alt: 'ISRO' },
   { id: 20, src: Lakeshore, alt: 'Lakeshore' },
   { id: 21, src: LG, alt: 'LG' },
   { id: 22, src: MC, alt: 'MC' },

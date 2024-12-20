@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.contact-form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .contact-form-wrapper {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+  
