@@ -11,7 +11,6 @@ import gallery8 from '../assets/gallery8.jpeg';
 import gallery9 from '../assets/gallery9.jpg';
 import gallery10 from '../assets/gallery10.jpg';
 import gallery11 from '../assets/gallery11.JPG';
-// import gallery12 from '../assets/gallery12.JPG';
 import gallery13 from '../assets/gallery13.JPG';
 import gallery14 from '../assets/gallery14.png';
 import gallery15 from '../assets/gallery15.png';
