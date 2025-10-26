@@ -45,6 +45,7 @@ const Contact = () => {
               <address style={styles.address}>
                 Chembumukku, Thrikakara, Ernakulam, Kochi, Kerala 682021
               </address>
+              <p style={styles.contactDetails}>Email: info@abmelectricals.com</p>
               <p style={styles.contactDetails}>Gmail: abmelectricals123@gmail.com</p>
               <p style={styles.contactDetails}>Contact No: +91 9387316881</p>
             </div>
